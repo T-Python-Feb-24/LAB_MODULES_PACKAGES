@@ -1,6 +1,5 @@
 from datetime import date
 
-def current_data():
+def current_date():
     currentdate=date.today()
-    print(currentdate)
-    current_data()
+    return current_date
